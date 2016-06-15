@@ -5,6 +5,11 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 
+/**
+ * BIO client demo
+ * @author sam
+ *
+ */
 public class Client extends Thread {
 	Socket socket = null;
 	BufferedReader reader = null;
