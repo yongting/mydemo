@@ -26,8 +26,8 @@ public class HttpChunkedServer {
 		this.port = port;
 	}
 	
-	private void feature2() {
-		
+	private String feature2() {
+		return "this is release 2";
 	}
 
 	public void run() {
