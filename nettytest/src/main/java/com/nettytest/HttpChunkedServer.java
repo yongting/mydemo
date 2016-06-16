@@ -25,6 +25,10 @@ public class HttpChunkedServer {
 	public HttpChunkedServer(int port) {
 		this.port = port;
 	}
+	
+	private void feature2() {
+		
+	}
 
 	public void run() {
 		// Configure the server.
